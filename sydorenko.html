@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Сайт Сидоренко Андрій</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>Сидоренко Андрій КЛ-23-1фмб</h1>
+  <nav>
+    <a href="#about">Про сайт</a>
+    <a href="#media">Мультимедіа</a>
+    <a href="#graphics">Графіка</a>
+    <a href="#contact">Контакти</a>
+  </nav>
+</header>
+
+<main>
+  <section id="about">
+    <h2>Про сайт</h2>
+    <article>
+      <p>Цей сайт демонструє використання сучасних тегів HTML та CSS. Він адаптивний і містить різні приклади мультимедіа та графіки.</p>
+      <p>Цитата: <q>Код повинен бути чистим та семантичним.</q></p>
+      <blockquote>
+        <p>Навчання веб-розробки відкриває безліч можливостей для творчості.</p>
+        <cite>— John Doe</cite>
+      </blockquote>
+      <p>HTML означає <abbr title="HyperText Markup Language">HTML</abbr>, CSS — <abbr title="Cascading Style Sheets">CSS</abbr>.</p>
+    </article>
+  </section>
+
+  <section id="media">
+    <h2>Мультимедіа</h2>
+    <article>
+      <h3>Відео</h3>
+      <video controls width="480">
+        <source src="media/sample-video.mp4" type="video/mp4">
+      </video>
+      <h3>Аудіо</h3>
+      <audio controls>
+        <source src="media/sample-audio.mp3" type="audio/mpeg">
+      </audio>
+      <h3>YouTube</h3>
+      <iframe width="480" height="270" 
+              src="https://www.youtube.com/embed/dQw4w9WgXcQ" 
+              frameborder="0" allowfullscreen></iframe>
+    </article>
+  </section>
+
+  <section id="graphics">
+    <h2>Графіка</h2>
+    <canvas id="myCanvas" width="480" height="200"></canvas>
+    <svg width="480" height="200">
+      <rect x="20" y="20" width="100" height="100" fill="green" stroke="black" stroke-width="3"/>
+      <circle cx="250" cy="70" r="50" fill="red" stroke="black" stroke-width="3"/>
+      <text x="150" y="180" font-size="20" fill="black">SVG приклад</text>
+    </svg>
+  </section>
+
+  <aside>
+    <p>Додатковий блок (sidebar).</p>
+  </aside>
+</main>
+
+<footer id="contact">
+  <address>
+    Сидоренко Андрій<br>
+    КЛ-23-1фмб<br>
+    Email: <a href="mailto:example@example.com">example@example.com</a><br>
+    Тел.: +380123456789
+  </address>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>

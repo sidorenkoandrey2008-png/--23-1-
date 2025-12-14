@@ -1,0 +1,10 @@
+const canvas = document.getElementById('myCanvas');
+const ctx = canvas.getContext('2d');
+ctx.fillStyle = 'orange';
+ctx.fillRect(50, 50, 100, 100);
+ctx.strokeStyle = 'blue';
+ctx.lineWidth = 5;
+ctx.strokeRect(200, 50, 100, 100);
+ctx.fillStyle = 'black';
+ctx.font = '20px Arial';
+ctx.fillText('Canvas приклад', 150, 180);
